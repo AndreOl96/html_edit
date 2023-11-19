@@ -1,0 +1,43 @@
+.categories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.categories_card{
+    min-width: 300px;
+}
+.categories_card_img{
+    max-width: 350px;
+    width: 100%;
+}
+.categories_card_description{
+    position: relative;
+    top:-50px;
+    right:-20px;
+}
+.categories_cont_wrap{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 15px; 
+padding-bottom: 50px;
+}
+.categories_advantages{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    background-color: #F7EEE3;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.categories_advantages_card{
+    display: flex;
+    align-items: center;
+    margin: 15px 15px 15px 15px;
+}
+.advantages_img{
+    max-width: 30%;
+}

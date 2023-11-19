@@ -1,0 +1,10 @@
+$warning: blue;
+
+h2{
+    color: $warning;
+}
+
+p{
+    $warning: red;
+    color: $warning;
+}

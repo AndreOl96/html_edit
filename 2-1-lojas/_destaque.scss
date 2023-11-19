@@ -1,0 +1,34 @@
+.destaque{
+    display: flex;
+    flex-direction: row;
+    background-color: #F7EEE3;
+    width: 100%;
+    justify-content: space-between;
+}
+.img_destaque{
+
+    position: relative;
+    right: 0;
+}
+.newsletter_form {
+    display: flex;
+    flex-wrap: wrap;
+}
+.destaque_info{
+    padding-top: 5%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 300px;
+    gap: 30px;
+}
+
+@media only screen and (max-width: 998px) {
+    .img_destaque{
+        position: relative;
+        right: 0;
+        max-width: 250px;
+    }
+
+    }

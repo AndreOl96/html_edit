@@ -1,0 +1,17 @@
+.btn{
+    border: none;
+    background-color: white;
+    padding: 16px 25px 16px 25px;
+    cursor: pointer;
+}
+
+.btn__yellow{
+    background-color: rgb(249, 249, 95);
+    border-radius: 5px;
+}
+.btn__yellow:hover{
+    background-color: rgb(250, 250, 142);   
+}
+.btn__newsletter{
+    background-color: white;
+}

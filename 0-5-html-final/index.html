@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+    <style>
+      html {
+        font-family: "Montserrat", sans-serif;
+      }
+      body {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 700px;
+        margin-top: 30px;
+      }
+      .metodos_pagamento {
+        position: relative;
+        background-color: aquamarine;
+        border-radius: 15px;
+        padding: 20px;
+        box-shadow: 3px 5px #e2e2e2;
+      }
+      .cabecalho {
+        position: relative;
+      }
+
+      .butao {
+        width: 100%;
+        margin: 0 auto;
+        padding: 12px;
+        margin-top: 12px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="metodos_pagamento">
+        <div class="cabecalho">
+          <h4>Payment methods</h4>
+          <a href="#"> Edit</a>
+        </div>
+
+        <div class="cartoes">
+          <div class="cartao">
+            <a href="#">
+              <img src="assets/Vector copy.png" alt="cartao mastercard" />
+              <span> Mastercard: 5432</span>
+              <span> Exp. date:<b>12/20</b></span>
+            </a>
+          </div>
+          <div class="cartao">
+            <a href="#">
+              <img src="assets/Vector.png" alt="cartao mastercard" />
+              <span> Visa: 4291</span>
+              <span> Exp. date:<b>12/20</b></span>
+            </a>
+          </div>
+        </div>
+        <div class="card_fotter">
+          <button class="butao">check</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

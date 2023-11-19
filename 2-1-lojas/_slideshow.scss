@@ -1,0 +1,22 @@
+.slideshow{
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: scroll;
+}
+.img_slideshow{
+  max-width: 500px;
+}
+.slideshow_wrap{
+  display: flex;
+  overflow: scroll;
+  gap: 20px;
+}
+
+.slideshow h2{
+
+  display: flex;
+    justify-content: center;
+}

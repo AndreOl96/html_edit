@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Montserrat:wght@400;500;600;700;900&display=swap');
+
+html{
+      font-family: 'Lato', sans-serif;
+      letter-spacing: 0.5px;
+}
+body{
+    width: 100%;
+    
+}
+button{
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{ 
+    padding: 14px 16px;
+}
+.menu{
+    margin-right: auto;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .menu li {
+    float: left;
+  }
+  
+  .menu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .menu li a:hover {
+    background-color: #111;
+    color: white;
+  }
+
+  .login {
+padding: 14px 16px;
+}
+
+.login a {
+    color: black;
+    text-decoration: none
+}
+.login a:hover{
+    text-decoration: underline
+}
+
+.cont{
+
+    height: 100vh;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;;
+    align-items: center;
+    justify-content: center;
+}
+.cont p{
+    width: 50%;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.cont h1{ 
+    font-size: 50px;
+    padding-bottom: 40px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.cont_bts{
+    display: flex;
+    gap: 24px;
+    padding-bottom: 40px;
+}
+.btn1 {
+    background-color: rgb(10, 159, 239);
+    align-items: center;
+    padding: 12px;
+
+}
+
+.btn1:hover {
+  background-color: rgb(17, 128, 187);
+}
+
+.btn2 {
+    background-color: black;
+    align-items: center;
+    padding: 12px;
+}
+
+.cont_vid{
+    max-width: 700px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+.btn_video{
+z-index: 1;
+margin-left: 0;
+position: relative;
+top: -50px;
+}
+
+.cont h2{ 
+    font-size: 40px;
+    padding-bottom: 40px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.img{
+    max-width: 700px;
+    width: 100%;
+}
+
+.contcolor{
+    background-color: rgba(240, 240, 240, 0.559);
+}
+.cont3 {
+    display: flex;
+  flex-direction: column;
+    align-items: center;
+  }
+  
+  .grid {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 40px;
+  }
+  .card__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    max-width: 800px;
+    z-index: 2;
+    justify-content: center;
+    padding-bottom: 25px;
+
+  }
+  .card {
+    width: calc(100% / 3 - 24px);
+    aspect-ratio: 1;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border:1px solid black;
+    border-radius: 5px;
+    min-width: 250px;
+    transition: all .4s;
+ }
+ .card:hover{
+    background-color: rgb(0, 132, 240);
+    color: white;
+    cursor: pointer;
+ }
+
+ .card:hover .dot {
+  background: white
+ }
+  
+  .card__background {
+    background-color: rgba(240, 240, 240, 0.559);
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+  .cont3 p{
+    width: 50%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.cont3 h2{ 
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    padding-top: 70px;
+    text-align: center;
+
+}
+.dot {
+    height: 30%;
+    width: 30%;
+    background-color: rgb(10, 159, 239);
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+
+ .card h4{
+    font-size: 18px;
+    padding-bottom: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    
+  }
+
+  .cont4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+   }
+ .btn-round{
+    border-radius: 15px;
+    width: 110px;
+ }
+ .btn-branco{
+    color: rgb(10, 159, 239);
+    background-color: white;
+    height: 50px;
+    font-size: 18px;
+ }
+ .cont4__menu{
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+ }
+ .post{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+ }
+ .post__bts{
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+ }
+ 
+ .img__post{
+max-width: 350px;
+border:1px solid rgba(229, 229, 229, 0.859);
+}
+.img__postfooter{
+    width: 50px;
+}
+.post__footer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    gap:10px;
+}
+  .post p {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .post-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    gap: 20px;
+  }
+
+  .cont5{
+    background-color: rgb(10, 159, 239);
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    padding: 50px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+  }
+  .cont5 h2{
+color: white;
+font-weight: normal;
+padding-top: unset;
+
+  }
+.footer{
+    display: flex;
+    padding: 70px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 15px;
+
+}
+
+.footer__sec2{
+    display: flex;
+    flex-direction: column;
+}
+.footer__sec3{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__titulo{
+    padding-bottom: 15px;
+}
+input[type="email"] {
+    border: 0;
+    outline: 0;
+    padding: 10px 60px;
+    border-radius: 3px;
+    border: 1px solid #8f94a1;
+ }
+ .footer p{
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+}
+.footer a{
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.news__form { padding-bottom: 15px;}
+  
+.vl {
+  border-left: 1px solid grey;
+  height: 100px;
+  position: relative;
+  left: 50%;
+  top: 50px;
+}
+.news__btn{
+  padding: 10px 25px;
+}
